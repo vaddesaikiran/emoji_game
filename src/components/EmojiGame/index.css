@@ -1,0 +1,26 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+}
+
+.emoji-game-container {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  margin: 10%;
+}
+
+.emoji-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-game-container {
+    height: 55vh;
+  }
+}

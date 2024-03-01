@@ -1,0 +1,20 @@
+.emoji-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24%;
+}
+
+.button {
+  background-color: #ffffff33;
+  outline: none;
+  cursor: pointer;
+  width: 95%;
+  height: 95%;
+  border: 2px solid #ffffff30;
+  border-radius: 10px;
+}
+
+.emoji-img {
+  height: 60%;
+}

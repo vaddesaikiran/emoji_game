@@ -1,0 +1,37 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #ffffff33;
+}
+
+.navbar-inner-container {
+  display: flex;
+  align-items: center;
+}
+
+.game-logo {
+  height: 40px;
+}
+
+.navbar-header {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.navbar-score-card {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-score {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding-left: 20px;
+}
